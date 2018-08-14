@@ -28,6 +28,3 @@ function rnn(h, x)
   h = tanh.(Wxh * x .+ Whh * h .+ b)
   return h, h
 end
-
-function inference()
-end
